@@ -36,10 +36,11 @@ BookSearch
 
 ## 첫 실행
 
-sptring boot 실행
 ```
-mvn clean install
-mvn install && mvn --projects backend spring-boot:run
+git clone https://github.com/bestselect/BookSearch.git
+cd BookSearch
+mvn clean && mvn install
+mvn --projects backend spring-boot:run
 ```
 
 이제 http://localhost:8080/ 에서 프로젝트를 만날수 있어요.
