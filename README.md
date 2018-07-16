@@ -43,5 +43,10 @@ mvn clean && mvn install
 mvn --projects backend spring-boot:run
 ```
 
-이제 http://localhost:8080/ 에서 프로젝트를 만날수 있어요.
+JAVA 8 버전을 맞춘 뒤 실행해주세요.
+```aidl
+export JAVA_HOME="`/usr/libexec/java_home -v '1.8*'`"
+```
 
+이제 http://localhost:8080/ 에서 프로젝트를 만날수 있어요.
+(본 프로젝트는 사파이에서 최적화 되어 있습니다.)
